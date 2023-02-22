@@ -485,7 +485,7 @@
 @media (max-width: 576px) {
   .inside .single-content .my_btn {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
   }
 }
 .inside .sections {
@@ -533,6 +533,6 @@
   }
   .inside .sections .read_btn a {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
   }
 }/*# sourceMappingURL=main.css.map */
