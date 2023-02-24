@@ -1,0 +1,21 @@
+@mixin text-style($size: 2rem, $color: #000000, $height: 100%, $weight: 400) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  color: $color;
+}
+
+@mixin flex($gap: 0, $justify: flex-start) {
+  display: flex;
+  align-items: center;
+  gap: $gap;
+  justify-content: $justify;
+}
+
+@mixin subtitle-style() {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
