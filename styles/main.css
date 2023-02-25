@@ -314,4 +314,124 @@
   color: #fff;
   font-weight: 400;
   margin-left: 7px;
+}
+
+.post-section__title {
+  margin: 140px 0 10px;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.conferences {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.conferences .post {
+  display: flex;
+  background-color: #eff2f8;
+  gap: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.conferences .post .img-container {
+  width: 40%;
+  height: 300px;
+}
+.conferences .post .img-container img {
+  width: 100%;
+  height: 100%;
+}
+.conferences .post .info-container {
+  padding: 20px;
+}
+.conferences .post .info-container .info-title {
+  margin: 12px 0 20px;
+  font-weight: 600;
+}
+.conferences .post .info-container .info-subtitle {
+  max-width: 400px;
+}
+@media (max-width: 768px) {
+  .conferences .post {
+    gap: 30px;
+  }
+  .conferences .post .img-container {
+    width: 80%;
+  }
+  .conferences .post .img-container img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 576px) {
+  .conferences .post-section__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .conferences .post {
+    display: block;
+    gap: 30px;
+  }
+  .conferences .post .img-container {
+    width: 100%;
+  }
+  .conferences .post .img-container img {
+    width: 100%;
+    height: 100%;
+  }
+  .conferences .post .info-container {
+    padding: 20px;
+  }
+  .conferences .post .info-container .info-title {
+    margin: 12px 0 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .conferences .post .info-container .info-subtitle {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+.pagenumbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.pagenumbers button {
+  width: 50px;
+  height: 50px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #44aaee;
+  margin: 5px;
+  transition: 0.4s;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagenumbers button:hover {
+  background-color: #44eeaa;
+}
+
+.pagenumbers button.active {
+  background-color: #44eeaa;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=main.css.map */
