@@ -55,6 +55,10 @@ const pagination_element = document.getElementById("pagination");
 let current_page = 1;
 let rows = 5;
 
+const navigate = () => {
+  location.href = "/pages/inside/inside.html"
+};
+
 function DisplayList(items, wrapper, rows_per_page, page) {
   wrapper.innerHTML = "";
   page--;
@@ -66,13 +70,10 @@ function DisplayList(items, wrapper, rows_per_page, page) {
   for (let i = 0; i < paginatedItems.length; i++) {
     let item = paginatedItems[i];
 
-    let item_element = document.createElement("div");
-    item_element.classList.add("post");
-
     wrapper.insertAdjacentHTML(
       "beforeend",
       `
-    <div class="post">
+    <div class="post" id="post" onclick="navigate()">
           <div class="img-container">
             <img
               src="${item.photoUrl}"

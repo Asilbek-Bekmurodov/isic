@@ -23,7 +23,7 @@
 
 .hero {
   background-image: radial-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.43)),
-    url("https://images.unsplash.com/photo-1558008258-3256797b43f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2831&q=80");
+    url("https://images.squarespace-cdn.com/content/v1/60c8fdcaee112d5cb209f019/0a550765-c435-4c79-80b9-9b6c34760378/KAP_ICSSI_2022_06_07-037.jpg?format=2500w");
   height: 100vh;
   width: 100%;
   background-position: center;
@@ -189,6 +189,7 @@
     margin-bottom: 20px;
   }
   .post {
+    cursor: pointer;
     display: flex;
     background-color: #eff2f8;
     gap: 40px;
